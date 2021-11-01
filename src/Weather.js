@@ -26,10 +26,14 @@ export default function Weather() {
         <li>Last updated: DATE</li>
         <li>Description</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
-          <img src="#" alt="description" />
-          6°C
+          <div className="clearfix">
+            <img src="#" alt="desription" className="float-left" />
+
+            <span className="temperature">6</span>
+            <span className="unit">°C</span>
+          </div>
         </div>
         <div className="col-6">
           <ul>
