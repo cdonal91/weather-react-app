@@ -9,7 +9,13 @@ function App() {
       <Weather defaultCity="Sydney" />
       <footer>
         Coded by Carol-Ann Donaldson{" "}
-        <a href="https://github.com/cdonal91/weather-react-app">Github</a>
+        <a
+          href="https://github.com/cdonal91/weather-react-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
+        </a>
       </footer>
     </div>
   );
